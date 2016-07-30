@@ -1,0 +1,7 @@
+#Fri Mar 25 14:33:16 IST 2016
+un=rootone
+pw=password
+sql2=select * from master
+constring=jdbc\:mysql\://localhost\:3305/sample
+driver=com.mysql.jdbc.Driver
+sql=use sample

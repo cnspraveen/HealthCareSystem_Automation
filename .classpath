@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/mysql-connector-java-5.1.36-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/opencsv-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/opencsv-3.7.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/poi-examples-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/poi-excelant-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/poi-scratchpad-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclip_Selenium_Workspace/PravinSelenumProgs/seleniumprogs/CitrixPhase2/jarfiles/testng.jar"/>
+	<classpathentry kind="lib" path="C:/Praveen/Eclipse/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/310076288/Desktop/TFS Screen shots/poi-3.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/310076288/Desktop/TFS Screen shots/poi-ooxml-3.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/310076288/Desktop/TFS Screen shots/poi-ooxml-schemas-3.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/310076288/Desktop/TFS Screen shots/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

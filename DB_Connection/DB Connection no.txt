@@ -1,0 +1,38 @@
+package DB_Connection;
+
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Connection;
+
+public class MySQLDBConnection 
+{
+		public static void main(String[] args) throws ClassNotFoundException, SQLException
+		{
+		    Class.forName("com.mysql.jdbc.Driver");
+		    String ConString = "jdbc:mysql://localhost:3305/sample";
+		    String un = "rootone";
+		    String pw = "password";
+		    Connection c = DriverManager.getConnection(ConString, un, pw);
+		    String query = "Select firstname,email,salary from master";
+		    ResultSet rs = c.createStatement().executeQuery(query);
+		    int maxrows = rs.getStatement().getMaxRows(); 
+		       System.out.println(maxrows);
+		    ResultSet res = rs.getStatement().getResultSet();
+		    System.out.println(res);
+		    rs.next();
+		    
+		    int maxcol = rs.getMetaData().getColumnCount();
+		    System.out.println(maxcol);
+		    
+		    for(int i =1; i<=maxcol; i++)
+		    {
+		    	String colname = rs.getMetaData().getColumnName(i);
+		    	System.out.println(colname);
+		    	
+		    	String collabel = rs.getMetaData().getColumnLabel(i);
+		    	System.out.println(collabel);
+		    }
+        }
+
+}

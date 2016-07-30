@@ -1,0 +1,48 @@
+public static String getCellValue(String xl,String sheet,int r,int c)
+
+{
+       try{            
+             return WorkbookFactory.create(new FileInputStream(xl)).getSheet(sheet).getRow(r).getCell(c).toString();            
+
+       }catch(Exception e){e.printStackTrace();return "";}
+}
+
+ 
+
+public static void setCellValue(String xl,String sheet,int r,int c,String v)
+
+{
+       Row row;
+
+       try{
+             Workbook wb = WorkbookFactory.create(new FileInputStream(xl));
+
+                    row=wb.getSheet(sheet).getRow(r);
+
+                    if(row==null)
+
+                    {
+
+                           row=wb.getSheet(sheet).createRow(r);
+
+                           System.out.println("Creating row");  
+
+                    }
+
+                    else
+
+                    {
+
+                           System.out.println("Row already present");
+
+                    }            
+
+             row.createCell(c).setCellValue(v);
+
+             wb.write(new FileOutputStream(xl));    
+
+       }catch(Exception e){e.printStackTrace();}
+
+}
+
+}

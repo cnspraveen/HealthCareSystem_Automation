@@ -1,0 +1,14 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Default suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="717fa4">  <td>16/03/25 14:33:00</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SuperNG.postcondition()[pri:0, instance:Scripts.Sample@6e3c1e69]">postcondition</td> 
+  <td>main@2137211482</td>   <td></td> </tr>
+<tr bgcolor="717fa4">  <td>16/03/25 14:33:16</td>   <td>16223</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;SuperNG.postcondition()[pri:0, instance:Scripts.Sample@6e3c1e69]">&lt;&lt;postcondition</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@2137211482</td>   <td></td> </tr>
+<tr bgcolor="717fa4">  <td>16/03/25 14:32:24</td>   <td>-36170</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;SuperNG.preCondition()[pri:0, instance:Scripts.Sample@6e3c1e69]">&gt;&gt;preCondition</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@2137211482</td>   <td></td> </tr>
+<tr bgcolor="717fa4">  <td>16/03/25 14:33:03</td>   <td>3347</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SuperNG.preCondition()[pri:0, instance:Scripts.Sample@6e3c1e69]">preCondition</td> 
+  <td>main@2137211482</td>   <td></td> </tr>
+<tr bgcolor="7796bb">  <td>16/03/25 14:33:00</td>   <td>-19</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Sample.sample1()[pri:0, instance:Scripts.Sample@6e3c1e69]">sample1</td> 
+  <td>main@2137211482</td>   <td></td> </tr>
+</table>
