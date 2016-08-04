@@ -8,6 +8,7 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -48,6 +49,13 @@ public class CreateUser_thruParametrization_TestNG// extends SuperNG
 				   drive.manage().window().maximize();
 				   Reporter.log("Firefox is launched", true);
 			   }
+				   else if(getbrowsertype.equalsIgnoreCase("ie"))
+				   {
+					   System.setProperty("webdriver.ie.driver", "./ExeFiles/IEDriver/IEDriverServer.exe");
+					   drive=new InternetExplorerDriver();
+					   drive.manage().window().maximize();
+					   Reporter.log("is is launched");
+				   }
 		   
 		   
 		   String url = Excel_Transactions.getCellValue(xl, sheet1, c, 1);

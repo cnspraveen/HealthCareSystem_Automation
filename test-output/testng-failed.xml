@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
     <classes>
-      <class name="TestNGClasses.CreateCustomer_and_Project">
+      <class name="TestNGClasses.Createtask_and_Verifytask_TestNG">
         <methods>
-          <include name="createCustomerProject"/>
+          <include name="createtask_and_logout"/>
         </methods>
-      </class> <!-- TestNGClasses.CreateCustomer_and_Project -->
+      </class> <!-- TestNGClasses.Createtask_and_Verifytask_TestNG -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -104,10 +104,22 @@ public class Createtask_and_Verifytask_TestNG
 //Selecting of all checkbox to delete allallActive customers & projects
 		      CreatedTask_Verify_and_deletecreatedtask  deletetask = new CreatedTask_Verify_and_deletecreatedtask(driver);
 		      deletetask.Verify_and_delete_createdtask();
+		      
+
+		  /*    int rc5 = Excel_Transactions.getRowCount(xlpath, sheet);
+		    		      for(int k=1;k<=rc5;k++)
+		    		      {		    		  
+		    		      String custname = Excel_Transactions.getCellValue(xlpath, sheet, k, 0);
+		    		      CreatedTask_Verify_and_deletecreatedtask  deletetask = new CreatedTask_Verify_and_deletecreatedtask(driver);
+		    		      deletetask.Verify_and_delete_createdtask(custname);
+		    		      Reporter.log("created task Verified & deleted", true);
+		    		      }*/
+		    		  }
 		      Reporter.log("created task Verified & deleted", true);
-		  }
+		  
 		 bp.logout();
 		 driver.close(); 
+		 
 		  }  
 	}
 }

@@ -38,14 +38,17 @@ public class CreatedTask_Verify_and_deletecreatedtask
 	   PageFactory.initElements(driver, this);
    }
 
-public void Verify_and_delete_createdtask()
+public void Verify_and_delete_createdtask()   //(String custname)
 {
 	String text = newtaskadded_verifyMsg.getText();
 	if(text.contains("1 new task was added"))
 	{Reporter.log(text, true);}
 
+	//get identify from maually but not thru automation
  driver.manage().timeouts().implicitlyWait(55, TimeUnit.SECONDS);
- driver.findElement(By.xpath("//a[text()='cust2122']/../../../../../..//input[@type='checkbox']"));
+ driver.findElement(By.xpath("//a[text()='a212211']/../../../../../..//input[@type='checkbox']")).click();
+ //driver.findElement(By.xpath("//a[text()='"+custname+"]/../../../../../..//input[@type='checkbox']")).click();
+ 
 
  deleteButton_todeleteall.click();
  ClickOn_DeleteThisCustomerButton_In_PoPUp.click();
